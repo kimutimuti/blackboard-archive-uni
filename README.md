@@ -47,7 +47,11 @@ cd blackboard-archive
 python -m venv .venv
 .venv\Scripts\pip install playwright beautifulsoup4 requests
 .venv\Scripts\playwright install chromium
-.venv\Scripts\python generic_archive_v3.py --url "https://your_university's_blackboard.com"
+.venv\Scripts\python generic_archive.py \
+  --url "https://your_university's_blackboard.com" \
+  --browsers-path "C:\your_path\blackboard-archive\.pw_browsers" \
+  --replace-name "class1:class2,1-A:2-A,1-A:1-D" \
+  --exclude-keyword "class1"
 ```
 ---
 If `python` isn't installed: get it from <https://python.org/downloads/> and check the **"Add Python to PATH"** box during install.

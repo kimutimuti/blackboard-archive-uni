@@ -15,12 +15,10 @@ there, then leave the window open. Done.
 ---
 Sign in when the Chromium window appears, wait ~5 min –2 h, find your courses in `./out/`.
 
-I am not well-versed in macOS, so I am discontinuing support for it as well. There are no current plans to resume such support.
-
 ## 🪟 Windows quick start
 
 ```powershell
-git clone [https://github.com/kimutimuti/blackboard-archive-uni.git](https://github.com/kimutimuti/blackboard-archive-uni.git)
+git clone https://github.com/kimutimuti/blackboard-archive-uni.git
 cd blackboard-archive-uni
 python -m venv .venv
 .venv\Scripts\pip install playwright beautifulsoup4 requests

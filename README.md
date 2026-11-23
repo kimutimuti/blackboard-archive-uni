@@ -1,6 +1,7 @@
 ## Attention!
 
-modification by AI.
+- modification by AI.
+- This repository is [shankara-n/blackboard-archive](https://github.com/shankara-n/blackboard-archive) fork.
 
 # Blackboard bulk archiver
 
